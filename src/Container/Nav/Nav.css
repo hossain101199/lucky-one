@@ -1,0 +1,8 @@
+.nav {
+  background-color: #283747;
+  color: aliceblue;
+  padding: 1px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}

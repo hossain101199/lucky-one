@@ -2,9 +2,8 @@ import React from "react";
 import "./CardContainer.css";
 import { BsCartPlusFill } from "react-icons//bs";
 
-const CardContainer = ({ data }) => {
-  console.log(data);
-  const { name, price, picture } = data;
+const CardContainer = ({ data, AddTocart }) => {
+  const { name, price, picture, id } = data;
   return (
     <div className="card">
       <div className="img-container">
@@ -13,11 +12,12 @@ const CardContainer = ({ data }) => {
       <div className="card-info">
         <h1>Name: {name} </h1>
         <p>Price: {price}</p>
-        <div className="button">
-          <button>
-            Add to Cart <BsCartPlusFill />
-          </button>
-        </div>
+      </div>
+
+      <div className="button">
+        <button onClick={() => AddTocart(data)}>
+          Add to Cart <BsCartPlusFill />
+        </button>
       </div>
     </div>
   );

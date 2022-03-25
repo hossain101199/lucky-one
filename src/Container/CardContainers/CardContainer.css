@@ -1,10 +1,12 @@
 .card {
+  min-height: 450px;
   max-width: 355px;
   box-shadow: 10px 10px 20px #aaaaaa;
   border-radius: 5px;
   text-align: left;
   /* cursor: pointer; */
   transition: 0.5s;
+  position: relative;
 }
 .card-info {
   margin: 5px;
@@ -16,9 +18,17 @@
 .card:hover {
   box-shadow: 10px 10px 50px #aaaaaa;
 }
-button {
-  /* border: #aaaaaa; */
+.button button {
+  border: none;
+  background-color: #ffe0b3;
   font-size: 30px;
-  padding: 5px;
   cursor: pointer;
+  width: 100%;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0;
+  transition: 0.5s;
+}
+.button:hover button {
+  font-weight: bold;
 }
