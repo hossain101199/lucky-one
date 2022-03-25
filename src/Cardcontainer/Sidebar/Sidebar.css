@@ -1,0 +1,9 @@
+.Sidebar {
+  height: 600px;
+  background-color: orange;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  text-align: center;
+  transition: 0.5s;
+  padding: 10px;
+}

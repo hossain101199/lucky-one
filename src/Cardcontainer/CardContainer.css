@@ -1,0 +1,24 @@
+.card {
+  max-width: 355px;
+  box-shadow: 10px 10px 20px #aaaaaa;
+  border-radius: 5px;
+  text-align: left;
+  /* cursor: pointer; */
+  transition: 0.5s;
+}
+.card-info {
+  margin: 5px;
+}
+.img-container img {
+  width: 100%;
+  border-radius: 5px;
+}
+.card:hover {
+  box-shadow: 10px 10px 50px #aaaaaa;
+}
+button {
+  /* border: #aaaaaa; */
+  font-size: 30px;
+  padding: 5px;
+  cursor: pointer;
+}
