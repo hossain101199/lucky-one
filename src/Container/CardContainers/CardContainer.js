@@ -3,7 +3,7 @@ import "./CardContainer.css";
 import { BsCartPlusFill } from "react-icons//bs";
 
 const CardContainer = ({ data, AddTocart }) => {
-  const { name, price, picture, id } = data;
+  const { name, price, picture } = data;
   return (
     <div className="card">
       <div className="img-container">

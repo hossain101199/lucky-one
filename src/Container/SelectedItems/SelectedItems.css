@@ -1,0 +1,8 @@
+.selectedItems img {
+  width: 50px;
+  border-radius: 100px;
+  margin: 5px;
+}
+.selectedItems {
+  display: flex;
+}
