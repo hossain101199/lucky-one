@@ -1,8 +1,8 @@
 .Sidebar {
   min-height: 400px;
   background-color: #ffe0b3;
-  border-top-left-radius: 50px;
-  border-bottom-left-radius: 50px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
   text-align: center;
   padding: 10px;
 }
