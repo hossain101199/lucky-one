@@ -29,6 +29,3 @@
   bottom: 0;
   transition: 0.5s;
 }
-.button:hover button {
-  font-weight: bold;
-}
