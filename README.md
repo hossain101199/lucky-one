@@ -1,5 +1,5 @@
 # healthy-health
 
-## [LIVE Website Link](https://app.netlify.com/sites/healthy-health/overview)
+## [LIVE Website Link](https://healthy-health.netlify.app/)
 
-Click here to visit LIVE Website: [https://app.netlify.com/sites/healthy-health/overview](https://app.netlify.com/sites/healthy-health/overview)
+Click here to visit LIVE Website: [https://healthy-health.netlify.app/](https://healthy-health.netlify.app/)
