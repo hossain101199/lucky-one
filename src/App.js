@@ -20,7 +20,9 @@ function App() {
     const newItems = [...selectedItems, data];
     if (newItems.length <= 4) {
       setselectedItems(newItems);
-    } else alert("this is enghof");
+    } else {
+      alert("You cant add more than 4 items");
+    }
   };
   const ChooseAgain = () => {
     setselectedItems([]);
@@ -34,9 +36,13 @@ function App() {
     return result;
   };
   const ChooseOne = (data) => {
-    let index = getRendomNumber(0, data.length - 1);
-    const Newdata = data[index];
-    setSuggesteditem([Newdata]);
+    if (data.length == false || data.length < 4) {
+      alert("You have to choose some mushroom");
+    } else {
+      let index = getRendomNumber(0, data.length - 1);
+      const Newdata = data[index];
+      setSuggesteditem([Newdata]);
+    }
   };
   // .............................................................................
   return (
