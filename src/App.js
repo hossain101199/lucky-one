@@ -4,6 +4,7 @@ import CardContainer from "./Container/CardContainers/CardContainer";
 import { useEffect, useState } from "react";
 import Sidebar from "./Container/Sidebar/Sidebar";
 import Nav from "./Container/Nav/Nav";
+import Question from "./Container/Question/Question";
 
 function App() {
   // .......................................................................
@@ -17,7 +18,9 @@ function App() {
   const [selectedItems, setselectedItems] = useState([]);
   const AddTocart = (data) => {
     const newItems = [...selectedItems, data];
-    setselectedItems(newItems);
+    if (newItems.length <= 4) {
+      setselectedItems(newItems);
+    } else alert("this is enghof");
   };
   const ChooseAgain = () => {
     setselectedItems([]);
@@ -58,6 +61,7 @@ function App() {
           ></Sidebar>
         </div>
       </div>
+      <Question></Question>
     </div>
   );
 }
